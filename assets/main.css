@@ -1,3 +1,9 @@
+/* Hide or display status of sections */
 .hide{
     display: none;
+}
+
+/* Timer Color */
+#player-time{
+    color: red;
 }
