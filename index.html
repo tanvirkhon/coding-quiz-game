@@ -6,20 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz Game</title>
     <link rel="stylesheet" href="./assets/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-   <section id="main-screen">
-    <div>
-        <button id="start-button">Start Quiz</button>
-    </div>
+   <section id="main-screen" class="bg-dark vh-100 text-center">
+        <div>
+            <h2 class="text-light">Coding Quiz</h2>
+            <button id="start-button" class="btn btn-primary">Start Quiz</button>
+        </div>
    </section>
+
    <section id="question-screen" class="hide">
-    <h2 id="question-box"></h2>
-    <button id="choice-one">Choice 1</button>
-    <button id="choice-two">Choice 2</button>
-    <button id="choice-three">Choice 3</button>
-    <button id="choice-four">Choice 4</button>
+        <div class="row">
+            <div class="card-body text-center">
+                <h2 id="question-box" class="card-title"></h2>
+                <h3><span id="player-time"></span></h3>
+                <button id="choice-one" class="btn btn-primary"></button>
+                <button id="choice-two" class="btn btn-primary"></button>
+                <button id="choice-three" class="btn btn-primary"></button>
+                <button id="choice-four" class="btn btn-primary"></button>
+            </div>
+        </div>
    </section>
+
+   <section id="player-name" class="hide">
+        <form>
+            <div class="input-group">
+                <label for="first-name">First Name</label>
+                <input type="text" name="player-name" id="player-name" placeholder="Jane"/>
+            </div>
+            <button type="submit" id="save" class="btn btn-primary">Submit</button>
+        </form>
+        <div>
+            <ul>
+                <li id="hs-player-name"></li>
+            </ul>
+        </div>
+   </section>
+
    <script src="./assets/script.js"></script>
 </body>
 </html>
