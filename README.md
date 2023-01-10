@@ -14,7 +14,7 @@ As soon as the user clicks on the start button the timer for the quiz will start
 
 ![image](https://user-images.githubusercontent.com/119143763/211467595-1be5e5b5-d3b5-42a5-86b6-23ad5877e9ad.png)
 
-If the user gets the question right they will move on to the next question without a time penelty.
+If the user gets the question right they will move on to the next question without a time penalty.
 
 If they get the answer wrong they will still move on to the next question by but suffer a 5 second time penalty.
 
