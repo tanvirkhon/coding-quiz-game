@@ -22,7 +22,7 @@ If at any point the user completes the questions in the quiz or the timer runs o
 
 ![image](https://user-images.githubusercontent.com/119143763/211468365-18b782c4-1864-436c-9ac9-a4d8dfca25dd.png)
 
-If you would like to use test out this quiz application please go to: https://tanvirkhon.github.io/password-randomizer-app/
+If you would like to use test out this quiz application please go to: https://tanvirkhon.github.io/coding-quiz-game/
 
 
 ## Installation
