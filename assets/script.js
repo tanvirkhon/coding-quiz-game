@@ -9,6 +9,7 @@ var questionIndex;
 var timeLeft = 25;
 var playerScore = 0;
 
+// Object to hold the quiz questions
 var questions = [
   {
     question: "What is the correct JavaScript syntax to write “Hello World”?",
@@ -101,10 +102,7 @@ function checkAnswer(event) {
   }
 
   if (event.target.matches("button#choice-three")) {
-    console.log("A button was clicked");
-    console.log(event.target.textContent);
     playerScore = playerScore + 1;
-    console.log("Player score is: " + playerScore + " out of 5");
     questionIndex++;
     displayQuestion();
   } else {
@@ -125,6 +123,7 @@ saveButton.addEventListener("click", function (event) {
   return;
 });
 
+// Function to show last score saved on this local machine
 function renderLastScore() {
   var lastScore = JSON.parse(localStorage.getItem("playerHighScore"));
   document.getElementById("high-scores").innerHTML =
@@ -139,4 +138,5 @@ restartButton.addEventListener("click", function () {
 // Start Quiz on Click
 document.getElementById("start-button").addEventListener("click", startQuiz);
 
+// Check if answer is correct
 questionScreen.addEventListener("click", checkAnswer);
