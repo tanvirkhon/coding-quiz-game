@@ -2,27 +2,27 @@
 
 ## Description
 
-This application was made for a user to create a randomized password. It asks a user a series of questions about the type of password they would like and it will take their inputs and creates a password for them.
+This application was made using JavaScript to replicate a coding quiz that a new developer might incounter during their job application process. 
 
 The application works in the following way:
 
-Once the user presses the button they will be promted to enter how long they want their password to be. It must be atleast 8 characters and no more than 128 -
+Once the user presses the start quiz button they will be prompted with their first quiz question: 
 
-![image](https://user-images.githubusercontent.com/119143763/209268052-cd08a6cb-61af-4737-8a7e-7d2e00d75c78.png)
+![image](https://user-images.githubusercontent.com/119143763/211467408-306fe2c7-ddd9-46e2-ab3c-844e4c408ce9.png)
 
-After the user inputs how many charecters they want their password to be they will be asked a series of prompts which will ask them if they want uppercase letters, lowercase letters, number and special charecters for their password - 
+As soon as the user clicks on the start button the timer for the quiz will start. The user will have 25 seconds in total to complete the quiz. 
 
-![image](https://user-images.githubusercontent.com/119143763/209268260-7d7db410-ea6c-4bbb-b361-ceea3e6afa4a.png)
+![image](https://user-images.githubusercontent.com/119143763/211467595-1be5e5b5-d3b5-42a5-86b6-23ad5877e9ad.png)
 
-Once the user has answered all the prompts they will be presented with randomly generated password like this - 
+If the user gets the question right they will move on to the next question without a time penelty.
 
-![image](https://user-images.githubusercontent.com/119143763/209268538-8889a437-425b-43da-a29b-7c605984dc76.png)
+If they get the answer wrong they will still move on to the next question by but suffer a 5 second time penalty.
 
-If the user does not put in a valid number of characters or does not select any of the password prompts they will be presented with an error message like this -
+If at any point the user completes the questions in the quiz or the timer runs out they will be presented with an end screen where their score will be listed. The user will also be able to input their name and score.
 
-![image](https://user-images.githubusercontent.com/119143763/209269164-d2ac2b8e-061d-4ab2-837e-6f141c43f70e.png)
+![image](https://user-images.githubusercontent.com/119143763/211468365-18b782c4-1864-436c-9ac9-a4d8dfca25dd.png)
 
-If you would like to use the password generator please go to: https://tanvirkhon.github.io/password-randomizer-app/
+If you would like to use test out this quiz application please go to: https://tanvirkhon.github.io/password-randomizer-app/
 
 
 ## Installation
