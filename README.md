@@ -2,7 +2,7 @@
 
 ## Description
 
-This application was made using JavaScript to replicate a coding quiz that a new developer might incounter during their job application process. 
+This application was made using JavaScript to replicate a coding quiz that a new developer might encounter during their job application process. 
 
 The application works in the following way:
 
